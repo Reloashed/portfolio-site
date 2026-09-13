@@ -6,16 +6,65 @@
     "contact": "Kontakt"
   },
   "body": {
-    "toProjects": "Mehr Projekte"
+    "toProjects": "Mehr Projekte",
+    "toContact": "Kontaktiere mich hier",
+    "contactText": "Zögere nicht, mich zu kontaktieren, wenn du Fragen hast oder zusammenarbeiten möchtest!"
   },
   "projects": [
     {
+      "title": "Arosa Classic Car 2026",
+      "description": "Ein cineastischer Motorsportfilm, der die rohe Energie und das zeitlose Erbe klassischer Rennwagen am Arosa Classic Car einfängt. Dynamische Fahraufnahmen, detailreiche Close-ups und atmosphärische Weitwinkelaufnahmen verbinden Geschwindigkeit, Charakter und die besondere Stimmung des Events mit der beeindruckenden Kulisse der Alpen.",
+      "videoSrc": "https://resh.video/arosa_classic_car_26.mov",
+      "left": true
+    },
+    {
       "title": "Motorrad Action",
       "description": "Actionreicher Motorrad-Edit, der cineastische Aufnahmen mit intensiven Action-Shots kombiniert. Begleitet von einem energiegeladenen Soundtrack zeigt der Edit eine dynamische Mischung aus Nahaufnahmen, Weitwinkelaufnahmen, Tracking-Shots und dramatischen Aufnahmen aus der Untersicht. Das Motorrad rast durch den Wald und stellt das Können und die Geschwindigkeit des Fahrers sowie die rohe Kraft der Maschine eindrucksvoll zur Schau. Neblige Wälder und aufgewirbelter Dreck verstärken das adrenalingeladene und immersive Gefühl des Edits.",
-      "videoSrc": "/media/hero.mp4",
-      "left": true
+      "videoSrc": "https://resh.video/motocross.mp4",
+      "left": false
     }
   ],
+  "about": {
+    "description": "Hallo, ich bin Remo, ein leidenschaftlicher Videograf und Editor mit einer großen Begeisterung dafür, Bewegung und Energie einzufangen. Ich lebe in Zürich, Schweiz, und habe bereits an einer Vielzahl von Projekten gearbeitet. Mein Ziel ist es, visuell beeindruckende und fesselnde Inhalte zu schaffen, die einen bleibenden Eindruck hinterlassen.",
+    "focus": "Mein Fokus liegt auf Sport, Action und energiegeladenen Videos. Ich liebe es, die rohe Energie und Dynamik meiner Motive einzufangen."
+  },
+  "services": [
+    {"label": "Sport & Highlight Videos", "description": "Dynamische Clips, die die Energie und Aufregung des Sports zum Leben erwecken."},
+    {"label": "Event Coverage", "description": "Die Essenz von Veranstaltungen in einem Kurzfilm einfangen."},
+    {"label": "Short-Form Videos", "description": "Vertikale Videos für Social-Media-Plattformen wie Instagram und TikTok."},
+    {"label": "Promotional Videos", "description": "Fesselnde Inhalte erstellen, um Marken, Produkte oder Dienstleistungen zu bewerben."}
+  ],
+  "contact": {
+    "projectType": "Projekttyp",
+    "location": "Ort",
+    "description": "Projektbeschreibung",
+    "items": [
+      {
+        "label": "Sport",
+        "value": "Sport"
+      },
+      {
+        "label": "Veranstaltung",
+        "value": "Veranstaltung"
+      },
+      {
+        "label": "Automobil",
+        "value": "Automobil"
+      },
+      {
+        "label": "Menschen",
+        "value": "Menschen"
+      },
+      {
+        "label": "Video",
+        "value": "Video"
+      },
+      {
+        "label": "Andere",
+        "value": "Andere"
+      }
+    ]
+  },
   "footer": {
     "emailSubject": "Kontaktanfrage",
     "privacyNotice": "Datenschutz",

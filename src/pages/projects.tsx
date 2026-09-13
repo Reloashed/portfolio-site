@@ -9,7 +9,8 @@ export default function Projects() {
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="text-4xl font-bold">{t("header.projects")}</p>
-      {
+      <div className="flex flex-col gap-20 mt-10 w-full items-center">
+        {
         projects.map((project, index) => (
           <ProjectShowcase
             key={index}
@@ -20,6 +21,7 @@ export default function Projects() {
           />
         ))
       }
+      </div>
     </div>
   )
 }

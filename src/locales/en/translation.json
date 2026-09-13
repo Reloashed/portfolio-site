@@ -1,21 +1,82 @@
 {
   "header": {
     "projects": "Projects",
-    "about": "About",
+    "about": "About Me",
     "services": "Services",
     "contact": "Contact"
   },
   "body": {
-    "toProjects": "More Projects"
+    "toProjects": "More Projects",
+    "toContact": "Contact Me Here",
+    "contactText": "Feel free to reach out if you have any questions or would like to collaborate!"
   },
   "projects": [
     {
+      "title": "Arosa Classic Car 2026",
+      "description": "A cinematic motorsport film capturing the raw energy and heritage of classic racing cars at Arosa Classic Car event. Combining dynamic tracking shots, tight details, and sweeping environmental frames, the film brings together the speed, character, and atmosphere of the event while showcasing the dramatic alpine setting.",
+      "videoSrc": "https://resh.video/arosa_classic_car_26.mov",
+      "left": true
+    },
+    {
       "title": "Motorcycle Action",
       "description": "Action-packed motorcycle edit combining cinematic visuals with intense action shots. Set to a high-energy soundtrack, the edit features a dynamic mix of close-ups, wide shots, tracking shots, and dramatic low-angle footage. The motorcycle tears through the forest, showcasing the rider’s skill, speed, and the raw power of the bike. Misty forests and flying dirt add to the adrenaline-filled, immersive feel of the edit.",
-      "videoSrc": "/media/hero.mp4",
-      "left": true
+      "videoSrc": "https://resh.video/motocross.mp4",
+      "left": false
     }
   ],
+  "about": {
+    "description": "Hi, I am Remo, a passionate videographer and editor with a love for capturing movement and energy. I am based in Zurich, Switzerland and have enjoyed working on a variety of projects. My goal is to create visually stunning and engaging content that leaves a lasting impression.",
+    "focus": "My focus is sports, action and energetic videos. I love to capture the raw energy and movement of my subjects."
+  },
+  "services": [
+    {
+      "label": "Sport & Highlight Videos",
+      "description": "Dynamic clips that bring the energy and excitement of sports to life."
+    },
+    {
+      "label": "Event Coverage",
+      "description": "Capturing the essence of events as a short film."
+    },
+    {
+      "label": "Short-Form Videos",
+      "description": "Vertical videos for social media platforms like Instagram and TikTok."
+    },
+    {
+      "label": "Promotional Videos",
+      "description": "Creating engaging content to promote brands, products, or services."
+    }
+  ],
+  "contact": {
+    "projectType": "Project Type",
+    "location": "Location",
+    "description": "Project Description",
+    "items": [
+      {
+        "label": "Sport",
+        "value": "Sport"
+      },
+      {
+        "label": "Event",
+        "value": "Event"
+      },
+      {
+        "label": "Automotive",
+        "value": "Automotive"
+      },
+      {
+        "label": "People",
+        "value": "People"
+      },
+      {
+        "label": "Video",
+        "value": "Video"
+      },
+      {
+        "label": "Other",
+        "value": "Other"
+      }
+    ]
+  },
   "footer": {
     "emailSubject": "Contact Request",
     "privacyNotice": "Privacy Notice",

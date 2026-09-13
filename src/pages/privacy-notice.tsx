@@ -69,6 +69,14 @@ export default function PrivacyNotice() {
           Sie in der Datenschutzerklärung von Vercel.
         </li>
       </ul>
+      <ul className="flex flex-col gap-2 self-start text-xl text-gray-300">
+        <li>
+          <strong>Deine Rechte</strong>
+        </li>
+        <li>
+          Auskunft, Berichtigung und Löschung deiner Daten nach revDSG. Kontakt: contact@resh.video.
+        </li>
+      </ul>
     </div>
   )
 }
