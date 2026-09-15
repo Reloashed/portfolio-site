@@ -18,7 +18,7 @@ export default function Home() {
         loop
         muted
         className="-mt-26 h-full w-full object-cover"
-        src={"https://resh.video/arosa_classic_car_26_drift.mov"}
+        src={"https://media.resh.video/arosa_classic_car_26_drift.mov"}
       ></video>
       <div className="flex w-full flex-col items-center justify-center">
         <ProjectShowcase
