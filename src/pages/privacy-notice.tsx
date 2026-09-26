@@ -4,7 +4,7 @@ export default function PrivacyNotice() {
   const { t } = useTranslation()
 
   return (
-    <div className="flex w-[40%] flex-col items-center justify-center gap-8 text-justify">
+    <div className="flex w-full max-w-3xl flex-col items-center justify-center gap-8 text-justify">
       <div className="text-center">
         <p className="text-4xl font-bold">{t("footer.privacyNotice")}</p>
         <p className="text-sm text-gray-400">

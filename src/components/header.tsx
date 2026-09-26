@@ -8,32 +8,34 @@ export default function Header() {
   const { t } = useTranslation()
 
   return (
-    <div className="full-width flex items-center justify-between p-6 sticky top-0">
+    <header className="sticky top-0 z-50 bg-background/90 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:px-6 lg:px-8">
       <img
-        className="h-15 cursor-pointer"
+        className="h-12 cursor-pointer sm:h-15"
         src="/resh-logo-dark.svg"
         onClick={() => navigate("/")}
         alt="resh.video"
       />
-      <div className={"flex items-center gap-8"}>
-        <div className={"flex gap-2"}>
-          <Button variant="ghost" onClick={() => navigate("/projects")}>
+      <div className="flex w-full flex-wrap items-center justify-center gap-2 sm:w-auto sm:justify-end sm:gap-8">
+        <nav className="flex flex-wrap items-center justify-center gap-0.5 sm:gap-2">
+          <Button className="cursor-pointer" variant="ghost" onClick={() => navigate("/projects")}>
             {t("header.projects")}
           </Button>
-          <Button variant="ghost" onClick={() => navigate("/services")}>
+          <Button className="cursor-pointer" variant="ghost" onClick={() => navigate("/services")}>
             {t("header.services")}
           </Button>
-          <Button variant="ghost" onClick={() => navigate("/about")}>
+          <Button className="cursor-pointer" variant="ghost" onClick={() => navigate("/about")}>
             {t("header.about")}
           </Button>
-          <Button variant="ghost" onClick={() => navigate("/contact")}>
+          <Button className="cursor-pointer" variant="ghost" onClick={() => navigate("/contact")}>
             {t("header.contact")}
           </Button>
-        </div>
+        </nav>
         <div>
           <LanguageSwitcher />
         </div>
       </div>
-    </div>
+      </div>
+    </header>
   )
 }

@@ -11,9 +11,9 @@ import LegalNotice from "@/pages/legal-notice.tsx"
 
 export function App() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col">
       <Header />
-      <div className="m-3 flex-1 flex justify-center items-center">
+      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:px-6 lg:px-8">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -23,7 +23,7 @@ export function App() {
           <Route path="/privacy" element={<PrivacyNotice />} />
           <Route path="/legal" element={<LegalNotice />} />
         </Routes>
-      </div>
+      </main>
       <Footer />
     </div>
   )

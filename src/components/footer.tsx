@@ -12,9 +12,9 @@ export default function Footer() {
   const { t } = useTranslation()
 
   return (
-    <div className="flex items-center justify-between p-3 pr-20 pl-20 text-center text-sm">
+    <footer className="flex flex-col items-center gap-3 border-t border-border/70 px-4 py-5 text-center text-sm sm:flex-row sm:justify-between sm:px-6 lg:px-8">
       <p>resh.video</p>
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center justify-center gap-1">
         <Button className="h-9" variant="ghost" onClick={() => window.open("https://www.instagram.com/resh.video", "_blank")}>
           <IconBrandInstagram /> Instagram
         </Button>
@@ -51,6 +51,6 @@ export default function Footer() {
         </Button>
       </div>
       <p>&copy; {new Date().getFullYear()} resh.video. All rights reserved.</p>
-    </div>
+    </footer>
   )
 }

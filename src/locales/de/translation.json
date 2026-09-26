@@ -36,6 +36,12 @@
   ],
   "contact": {
     "projectType": "Projekttyp",
+    "date": "Projektdatum",
+    "dateRequired": "Bitte wähle ein Projektdatum im Kalender aus.",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "sendSuccess": "Deine Anfrage wurde gesendet. Vielen Dank!",
+    "sendError": "Deine Anfrage konnte nicht gesendet werden. Bitte versuche es erneut oder schreibe an contact@resh.video.",
     "location": "Ort",
     "description": "Projektbeschreibung",
     "items": [

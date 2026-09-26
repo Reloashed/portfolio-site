@@ -12,12 +12,13 @@ export default function Home() {
   const services = t("services", { returnObjects: true }) as { label: string, description: string }[]
 
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-30">
+    <div className="flex w-full flex-col items-center justify-center gap-20 sm:gap-30">
       <video
         autoPlay
         loop
         muted
-        className="-mt-26 h-full w-full object-cover"
+        playsInline
+        className="aspect-video max-h-[75vh] w-full rounded-md bg-black object-cover"
         src={"https://media.resh.video/arosa_classic_car_26_drift.mov"}
       ></video>
       <div className="flex w-full flex-col items-center justify-center">
@@ -27,9 +28,9 @@ export default function Home() {
           videoSrc={projects[0].videoSrc}
           left={projects[0].left}
         />
-        <div className="flex flex-col w-[60%]">
+        <div className="flex w-full max-w-6xl flex-col">
           <Button
-            className="text-xl self-end"
+            className="text-xl self-end cursor-pointer"
             variant="ghost"
             onClick={() => navigate("/projects")}
           >
@@ -40,7 +41,7 @@ export default function Home() {
       </div>
       <div className="flex w-full flex-col items-center justify-center">
         <p className="text-4xl font-bold mb-6">{t("header.about")}</p>
-        <div className="flex w-[40%] flex-col gap-4 text-gray-300">
+        <div className="flex w-full max-w-3xl flex-col gap-4 text-muted-foreground">
           <p className="text-lg">{t("about.description")}</p>
           <p className="text-lg">{t("about.focus")}</p>
         </div>
@@ -50,9 +51,9 @@ export default function Home() {
         <div>
           <p className="text-2xl">{t("body.contactText")}</p>
         </div>
-        <div className="flex flex-col w-[60%]">
+        <div className="flex w-full max-w-6xl flex-col">
           <Button
-            className="text-xl self-end"
+            className="text-xl self-end cursor-pointer"
             variant="ghost"
             onClick={() => navigate("/contact")}
           >
@@ -63,7 +64,7 @@ export default function Home() {
       </div>
       <div className="flex w-full flex-col items-center justify-center">
         <p className="text-4xl font-bold">{t("header.services")}</p>
-        <div className="grid grid-cols-2 gap-6 m-6 text-lg text-gray-300 text-justify">
+        <div className="m-6 grid w-full max-w-4xl grid-cols-1 gap-6 text-lg text-muted-foreground sm:grid-cols-2">
           {
             services.map((service: { label: string, description: string }, index: number) => (
               <div key={index}>

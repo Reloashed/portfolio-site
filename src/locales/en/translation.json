@@ -48,6 +48,12 @@
   ],
   "contact": {
     "projectType": "Project Type",
+    "date": "Project date",
+    "dateRequired": "Please select a project date from the calendar.",
+    "send": "Send",
+    "sending": "Sending...",
+    "sendSuccess": "Your inquiry has been sent. Thank you!",
+    "sendError": "Your inquiry could not be sent. Please try again or email contact@resh.video.",
     "location": "Location",
     "description": "Project Description",
     "items": [

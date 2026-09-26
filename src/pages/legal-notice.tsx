@@ -4,7 +4,7 @@ export default function LegalNotice() {
   const { t } = useTranslation()
 
   return (
-    <div className="flex w-[20%] flex-col items-center justify-center text-center gap-4">
+    <div className="flex w-full max-w-xl flex-col items-center justify-center gap-4 text-center">
       <p className="text-4xl font-bold">{t("footer.legalNotice")}</p>
       <ul className="flex flex-col gap-2 text-xl text-gray-300">
         <li>
