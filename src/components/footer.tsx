@@ -18,7 +18,7 @@ export default function Footer() {
         <Button className="h-9" variant="ghost" onClick={() => window.open("https://www.instagram.com/resh.video", "_blank")}>
           <IconBrandInstagram /> Instagram
         </Button>
-        <Button className="h-9" variant="ghost" onClick={() => window.open("https://www.tiktok.com/@rere_vids", "_blank")}>
+        <Button className="h-9" variant="ghost" onClick={() => window.open("https://www.tiktok.com/@resh.video", "_blank")}>
           <IconBrandTiktok /> TikTok
         </Button>
         <Button className="h-9" variant="ghost" onClick={() => window.open("https://www.youtube.com/@reloashed9000", "_blank")}>
